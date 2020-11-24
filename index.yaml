@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2020-11-24T19:41:44.270260014+05:30"
+    description: Web publishing platform for building blogs and websites.
+    digest: 77610ec4d0e13a2affc54f72525b61eee97630af513ce06dfad059c9769b73ad
+    home: http://www.wordpress.com/
+    icon: file://../wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - https://github.com/nitishdsharma/helm3-nitish/releases/download/wordpress-9.0.3/wordpress-9.0.3.tgz
+    version: 9.0.3
+generated: "2020-11-24T19:41:43.852511969+05:30"
